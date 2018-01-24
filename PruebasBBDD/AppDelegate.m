@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseDatos.h"
+#import "Artista+CoreDataClass.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[BaseDatos instancia] cargarBaseDatos];
+    
+    // NSManagedObjectContext * moc = [[BaseDatos instancia] moc];
+    
     return YES;
 }
 

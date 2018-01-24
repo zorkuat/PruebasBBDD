@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Artista" representedClassName="Artista" syncable="YES">
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="nacionalidad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" minValueString="2" syncable="YES"/>
+        <relationship name="publicaciones" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Disco" inverseName="publicadoPor" inverseEntity="Disco" syncable="YES"/>
+    </entity>
+    <entity name="Disco" representedClassName="Disco" syncable="YES">
+        <attribute name="anno" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="genero" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="publicadoPor" maxCount="1" deletionRule="Nullify" destinationEntity="Artista" inverseName="publicaciones" inverseEntity="Artista" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Disco" positionX="-10368" positionY="-4536" width="234" height="103"/>
+        <element name="Artista" positionX="-10683" positionY="-4534" width="180" height="28"/>
+    </elements>
+</model>

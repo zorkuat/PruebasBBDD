@@ -13,6 +13,14 @@
 		09D6893D2018DBA900D9171F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D6893C2018DBA900D9171F /* Assets.xcassets */; };
 		09D689402018DBA900D9171F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D6893E2018DBA900D9171F /* LaunchScreen.storyboard */; };
 		09D689432018DBA900D9171F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D689422018DBA900D9171F /* main.m */; };
+		09D6894B2018DC0C00D9171F /* DiscosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D689492018DC0C00D9171F /* DiscosModel.xcdatamodeld */; };
+		09D689552018E57200D9171F /* Disco+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6894E2018E57200D9171F /* Disco+CoreDataClass.m */; };
+		09D689562018E57200D9171F /* Disco+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D689502018E57200D9171F /* Disco+CoreDataProperties.m */; };
+		09D689572018E57200D9171F /* Artista+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D689522018E57200D9171F /* Artista+CoreDataClass.m */; };
+		09D689582018E57200D9171F /* Artista+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D689542018E57200D9171F /* Artista+CoreDataProperties.m */; };
+		09D6895B2018E71400D9171F /* BaseDatos.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6895A2018E71400D9171F /* BaseDatos.m */; };
+		09D6895E2018F76200D9171F /* ArtistasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6895D2018F76200D9171F /* ArtistasTableViewController.m */; };
+		09D689622019123400D9171F /* DiscosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D689612019123400D9171F /* DiscosTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		09D6893F2018DBA900D9171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D689412018DBA900D9171F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D689422018DBA900D9171F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09D6894A2018DC0C00D9171F /* DiscosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiscosModel.xcdatamodel; sourceTree = "<group>"; };
+		09D6894D2018E57200D9171F /* Disco+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Disco+CoreDataClass.h"; sourceTree = "<group>"; };
+		09D6894E2018E57200D9171F /* Disco+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Disco+CoreDataClass.m"; sourceTree = "<group>"; };
+		09D6894F2018E57200D9171F /* Disco+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Disco+CoreDataProperties.h"; sourceTree = "<group>"; };
+		09D689502018E57200D9171F /* Disco+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Disco+CoreDataProperties.m"; sourceTree = "<group>"; };
+		09D689512018E57200D9171F /* Artista+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artista+CoreDataClass.h"; sourceTree = "<group>"; };
+		09D689522018E57200D9171F /* Artista+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Artista+CoreDataClass.m"; sourceTree = "<group>"; };
+		09D689532018E57200D9171F /* Artista+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artista+CoreDataProperties.h"; sourceTree = "<group>"; };
+		09D689542018E57200D9171F /* Artista+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Artista+CoreDataProperties.m"; sourceTree = "<group>"; };
+		09D689592018E71400D9171F /* BaseDatos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDatos.h; sourceTree = "<group>"; };
+		09D6895A2018E71400D9171F /* BaseDatos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDatos.m; sourceTree = "<group>"; };
+		09D6895C2018F76200D9171F /* ArtistasTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistasTableViewController.h; sourceTree = "<group>"; };
+		09D6895D2018F76200D9171F /* ArtistasTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistasTableViewController.m; sourceTree = "<group>"; };
+		09D689602019123400D9171F /* DiscosTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscosTableViewController.h; sourceTree = "<group>"; };
+		09D689612019123400D9171F /* DiscosTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscosTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +90,40 @@
 				09D6893E2018DBA900D9171F /* LaunchScreen.storyboard */,
 				09D689412018DBA900D9171F /* Info.plist */,
 				09D689422018DBA900D9171F /* main.m */,
+				09D689492018DC0C00D9171F /* DiscosModel.xcdatamodeld */,
+				09D6894C2018E48F00D9171F /* Modelo */,
+				09D689592018E71400D9171F /* BaseDatos.h */,
+				09D6895A2018E71400D9171F /* BaseDatos.m */,
+				09D6895F2018F76C00D9171F /* Controladores */,
 			);
 			path = PruebasBBDD;
+			sourceTree = "<group>";
+		};
+		09D6894C2018E48F00D9171F /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				09D6894D2018E57200D9171F /* Disco+CoreDataClass.h */,
+				09D6894E2018E57200D9171F /* Disco+CoreDataClass.m */,
+				09D6894F2018E57200D9171F /* Disco+CoreDataProperties.h */,
+				09D689502018E57200D9171F /* Disco+CoreDataProperties.m */,
+				09D689512018E57200D9171F /* Artista+CoreDataClass.h */,
+				09D689522018E57200D9171F /* Artista+CoreDataClass.m */,
+				09D689532018E57200D9171F /* Artista+CoreDataProperties.h */,
+				09D689542018E57200D9171F /* Artista+CoreDataProperties.m */,
+			);
+			name = Modelo;
+			path = Base.lproj/Modelo;
+			sourceTree = "<group>";
+		};
+		09D6895F2018F76C00D9171F /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				09D6895D2018F76200D9171F /* ArtistasTableViewController.m */,
+				09D6895C2018F76200D9171F /* ArtistasTableViewController.h */,
+				09D689602019123400D9171F /* DiscosTableViewController.h */,
+				09D689612019123400D9171F /* DiscosTableViewController.m */,
+			);
+			path = Controladores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +199,15 @@
 			files = (
 				09D689382018DBA900D9171F /* ViewController.m in Sources */,
 				09D689432018DBA900D9171F /* main.m in Sources */,
+				09D689582018E57200D9171F /* Artista+CoreDataProperties.m in Sources */,
+				09D6894B2018DC0C00D9171F /* DiscosModel.xcdatamodeld in Sources */,
+				09D6895E2018F76200D9171F /* ArtistasTableViewController.m in Sources */,
 				09D689352018DBA900D9171F /* AppDelegate.m in Sources */,
+				09D689572018E57200D9171F /* Artista+CoreDataClass.m in Sources */,
+				09D689562018E57200D9171F /* Disco+CoreDataProperties.m in Sources */,
+				09D6895B2018E71400D9171F /* BaseDatos.m in Sources */,
+				09D689552018E57200D9171F /* Disco+CoreDataClass.m in Sources */,
+				09D689622019123400D9171F /* DiscosTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +385,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09D689492018DC0C00D9171F /* DiscosModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09D6894A2018DC0C00D9171F /* DiscosModel.xcdatamodel */,
+			);
+			currentVersion = 09D6894A2018DC0C00D9171F /* DiscosModel.xcdatamodel */;
+			path = DiscosModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09D689282018DBA900D9171F /* Project object */;
 }
