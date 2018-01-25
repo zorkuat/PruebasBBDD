@@ -26,6 +26,22 @@
     /// La clase viene ya implementada con un método para recuperar una búsqueda
     NSFetchRequest *consultaArtistas = [Artista fetchRequest];
     
+    /// Sort Descriptor: Array que especifica campos por los que vamos a ordenar el nombre de la consulta.
+    consultaArtistas.sortDescriptors = @[
+                                         [NSSortDescriptor sortDescriptorWithKey:@"nacionalidad"
+                                                                       ascending:true],
+                                         [NSSortDescriptor sortDescriptorWithKey:@"nombre"
+                                         ascending:true]];
+    /// Herramientas de paginación:
+    /// Máximo de elementos que vamos a extraer
+    /// consultaArtistas.fetchLimit = 10;
+    /// Máximo por página
+    /// consultaArtistas.fetchOffset = 10;
+    
+    /// HAY UN LENGUAJE ESPECÍFICO PARA LOS PREDICADOS: %K para claves. %@ para predicados
+    /// UNOS CUANTOS OPERADORES DE BÚSQUEDA.
+    consultaArtistas.predicate = [NSPredicate predicateWithFormat:@"nacionalidad = %@", @"Aleman"];
+    
     NSManagedObjectContext *moc = [[BaseDatos instancia] moc];
     
     self.artistas = [moc executeFetchRequest:consultaArtistas error:nil];
